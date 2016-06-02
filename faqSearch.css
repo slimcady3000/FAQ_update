@@ -1,0 +1,211 @@
+.vwContentPage.auxPage .searchForm {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    top: 30px;
+}
+.vwContentPage.auxPage .searchForm .searchBox {
+    display: block;
+    width: 365px;
+    height: 40px;
+    margin: 40px auto;
+    margin-top: 14px;
+    color: #768188;
+    background: #eee;
+    border: 1px solid #d5d5d5;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-size: 13px;
+    outline: none;
+}
+.vwContentPage.auxPage .searchForm .searchButton {
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 3px;
+    right: -20px;
+    border: none;
+    background: transparent url(/etc/clientlibs/vwcom/img/components/primaryNav/navIcons_1x.png) -30px -343px;
+    text-indent: -9999px;
+}
+.vwContentPage .openHtml  .navBar.vwSubNav {
+	background-color: #fff;
+}
+.vwContentPage .vwContentMasthead .vwCta {
+    float: right;
+}
+.vwContentPage .openHtml .navBar.vwSubNav select,
+.vwContentPage.mobile.auxPage #primaryNav {
+  display: none;
+}
+
+.vwContentPage.mobile .parsysWrapper .accordion .accordion-group .accordion-heading a {
+    font-size: 14px;
+    padding: 0 40px 15px;
+}
+.vwContentPage.mobile .parsysWrapper p {
+    font-size: 12px !important;
+}
+.vwContentPage.mobile .parsysWrapper p a{
+    word-break: break-word;
+}
+.vwContentPage .parsysWrapper .accordion-base:first-child {
+    border-top:none;
+}
+.vwContentPage .openHtml .navBar ul {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.vwContentPage .openHtml .navBar ul.nav li a {
+	color:#00b1eb;
+}
+@media(-webkit-min-device-pixel-ratio:2){
+    .vwContentPage .parsysWrapper .accordion .accordion-group .accordion-heading a .accordion-icon{
+     background-image:none; 
+     background-size:0;
+    }
+}
+.vwContentPage .parsysWrapper .accordion .accordion-group .accordion-heading a.expanded .accordion-icon{
+    background-position:-6px -34px;
+}
+@media(-webkit-min-device-pixel-ratio:2){
+    .vwContentPage .parsysWrapper .accordion .accordion-group .accordion-heading a.expanded .accordion-icon{
+        background-position:-6px -52px
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2){
+.vwContentPage .parsysWrapper .accordion .accordion-group .accordion-heading a.expanded .accordion-icon {
+    background-position: initial;
+}
+.vwContentPage .parsysWrapper .accordion .accordion-group .accordion-heading a .accordion-icon {
+    background: url(/content/dam/vwcom/codeInjections/FAQ/accordionArrow.png) no-repeat;
+    height: 22px;
+    position: relative;
+    left: -30px;
+    display: block;
+    width: 16px;
+    top: 25px;
+}
+.vwContentPage.auxPage .parsysWrapper .accordion-icon {
+    transition: transform .5s linear;
+    transform-origin: center;
+    transform-style: preserve-3D;
+}
+.arrow-rotate {
+  transform: rotate(90deg);
+}
+
+
+.vwContentPage.auxPage #ActivEngageChatButton2 {
+    background-image: url(/etc/clientlibs/vwcom/img/modules/primaryNav/livechat.png) !important;
+    border-radius: 0;
+    background-color: none;
+    float: right;
+    margin-top: -2px;
+    margin-right: -2px;
+    text-align: center;
+    height: 41px;
+    width: 166px;
+    cursor: pointer;
+}
+.vwContentPage .openHtml .myNavBar {
+            
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+        
+.vwContentPage .openHtml .myNavBar.sticky {
+    position: fixed;
+    height: 48px; 
+    width: 100%;
+    z-index: 3000;
+}
+.vwContentPage.auxPage .resultsText {
+    text-align: left;
+    height: 50px;
+    width: 450px;
+    display: block;
+}
+.vwContentPage.auxPage .faqSearch {
+	padding: 10px;
+	text-align: center;
+	background-color: #e3ebed;
+	position: relative;
+    height:100px;
+}
+
+@media (max-width: 700px) and (orientation: portrait){
+    .faqs__header__label { margin: 0 0 5px; }
+    .vwContentPage.auxPage .mobilePageHeader { display:none; }
+    .vwContentPage.auxPage .resultsText { width: 250px; }
+    .vwContentPage.auxPage .faqs__header { margin-top: 20px; }
+    .vwContentPage.auxPage .faqSearch { height:145px; }
+    .vwContentPage .openHtml .navBar.vwSubNav { background-color: #00b1eb; }
+    .vwContentPage .openHtml .navBar.vwSubNav ul     { display: none; }
+    .vwContentPage .openHtml .navBar.vwSubNav select { 
+        display: inline-block;
+        margin: 10px auto;
+        left: 10px;
+        position: relative;
+        width: 280px;
+        font-size: 15px;
+        padding: 10px;
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        border-radius: 20px;
+        background: url(/etc/clientlibs/vwcom/img/components/shared/accordionArrows_2x.png) no-repeat #fff 235px -73px;
+        background-size: 38px;
+    }
+    .vwContentPage.auxPage .searchForm {  width: 270px; top:45px; }
+    .vwContentPage .openHtml .myNavBar {     
+        position: fixed;
+        top: 60px;
+        z-index: 3000;
+        width: 100%; 
+    }
+    .vwContentPage.auxPage .searchForm .searchBox { width: 280px; margin-top: 25px; }
+    .vwContentPage.auxPage .searchForm .searchButton { right: -10px; }
+    .vwContentPage .parsysWrapper .accordion .accordion-group .accordion-heading a .accordion-icon{
+        top:20px;
+    }
+    .vwContentPage.auxPage .textArea li  {  line-height: 20px; font-size: 12px; }
+    
+}
+@media (max-width: 700px) and (orientation: landscape) { 
+    .vwContentPage.auxPage .mobilePageHeader { display:none; }
+    .vwContentPage .openHtml .navBar.vwSubNav ul     { display: none; }
+    .vwContentPage .openHtml .myNavBar { position: fixed; top: 0;  z-index: 3000; width: 100%; }
+    .vwContentPage .openHtml .navBar.vwSubNav { background-color: #00b1eb; }
+    .vwContentPage .openHtml .navBar.vwSubNav select { 
+    display: inline-block;
+    margin: 10px auto;
+    left: 61px;
+    position: relative;
+    width: 370px;
+    font-size: 15px;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    border-radius: 20px;
+    background: url(/etc/clientlibs/vwcom/img/components/shared/accordionArrows_2x.png) no-repeat #fff 326px -73px;
+    background-size: 38px;
+    }
+    .vwContentPage.auxPage .faqSearch {
+        padding: 25px 10px;
+    }
+    .vwContentPage .parsysWrapper h2 {
+        margin: 30px 0 5px;
+    }
+    .vwContentPage.auxPage .textArea li  {  line-height: 20px; font-size: 12px; }
+    
+}
+
+            

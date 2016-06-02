@@ -1,0 +1,29 @@
+<div class="vwSubNavigation parbase subnav">
+	<div class="navBar vwSubNav">
+		<div class="container">
+			<ul class="nav">
+				<li class="active"><a href="#warranty" title="Warranty" x-cq-linkchecker="skip">Warranty</a></li>
+				<li><a href="recall" title="Recall" x-cq-linkchecker="skip">Recall</a></li>
+				<li><a href="technical" title="Technical" x-cq-linkchecker="skip">Technical</a></li>
+				<li><a href="maintenance" title="Maintenance" x-cq-linkchecker="skip">Maintenance</a></li>
+				<li><a href="service-parts" title="Service &amp; parts" x-cq-linkchecker="skip">Service &amp; parts</a></li>
+				<li><a href="financial" title="Financial" x-cq-linkchecker="skip">Financial</a></li>
+				<li><a href="general" title="General" x-cq-linkchecker="skip">General</a></li>  
+			</ul>
+			<select>
+				<option class="active" value="Warranty">Warranty</option>
+				<option value="Recall">Recall</option>
+				<option value="Technical">Technical</option>
+				<option value="Maintenance">Maintenance</option>
+				<option value="Service &amp; parts">Service &amp; parts</option>
+				<option value="Financial">Financial</option>
+				<option value="General">General</option>  
+			</select>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function(){
+		$('.pageNavigation .navBar.pageNavBar').removeClass('noSubNav');
+	});
+	</script>
+</div>
